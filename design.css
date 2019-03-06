@@ -1,0 +1,99 @@
+/* Article:  https://superdevresources.com/full-background-image-css/ */
+body {
+    background: url(https://superdevresources.com/wp-content/uploads/2015/12/new-york-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .content {
+    
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin: 40px auto;
+ 
+    width: 100%;
+    max-width: 960px;
+    border-radius: 5px;
+    padding-bottom: 32px;
+  }
+  
+  h1, h1 a {
+    min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    
+  }
+  
+  p {
+    width: 90%;
+    max-width: 700px;
+    text-align: left;
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
+
+  .wraper > .back{
+    /* background: url("images/back1.jpg") no-repeat center/cover; */
+    background: url("images/back1.jpg");
+    /* width: 100%;
+    height: 100%; */
+    background-size: cover; 
+    height: 600px; 
+ }
+ 
+ 
+ .header{
+     display: grid;
+     background-color: #C62828;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 40px 20px 10px 20px;
+ }
+ .col1{
+     padding: 15px 0px 15px 50px;
+ }
+ 
+ .col1 > img{
+     width: 220px;
+     height: 60px;
+ }
+ 
+ .header a{
+     color: #ffffff;
+     padding-top: 30px;
+     min-height: 70px;
+     text-decoration: none;
+ }
+ 
+ .header ul{
+     margin: 0;
+     padding: 0;
+ }
+ 
+ .header li{
+     float: left;
+     display: inline;
+     padding: 30px 20px 0 20px;
+     font-weight: bold;
+ }
+ 
+ .col2{
+     text-transform: uppercase;
+     color: #ffffff;
+     font-family: 'Open Sans Condensed', sans-serif;
+     display: inline;
+ }
+ 
+ .col3{
+     text-transform: uppercase;
+     color: #ffffff;
+     font-family: 'Open Sans Condensed', sans-serif;
+     display: inline;
+     padding-left: 300px;
+ }

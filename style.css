@@ -1,0 +1,111 @@
+/* .wraper { */
+   /* background: url("images/back1.jpg") no-repeat center/cover; */
+   /* background: url("images/back3.jpg"); */
+   /* width: 100%;
+   height: 100%; */
+   /* background-size: cover; 
+   height: 600px; 
+} */
+
+/* Article:  https://superdevresources.com/full-background-image-css/ */
+body{
+    margin: 0;
+}
+.container {
+    background: url("images/back3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+  }
+  
+  .back > .section {
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 960px;
+    border-radius: 5px;
+    padding-bottom: 32px;
+  }
+
+.section a{
+    color: #ffffff;
+    min-height: 70px;
+    text-decoration: none;
+}
+
+.section ul{
+    margin: 0;
+    padding: 10px 50px 0 850px;
+}
+
+.section li{
+    display: inline;
+    /* padding: 30px 20px 0 5px; */
+    /* font-weight: bold; */
+}
+
+.divider{
+    border: 1px solid #fff;
+    align-content: center;
+}
+
+
+.header{
+    display: grid;
+    background-color: #C62828;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5px 20px 10px 20px;
+}
+.col1{
+    padding: 15px 0px 15px 50px;
+}
+
+.col1 > img{
+    width: 220px;
+    height: 60px;
+}
+
+.header a{
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    text-decoration: none;
+}
+
+.header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header li{
+    float: left;
+    display: inline;
+    padding: 30px 20px 0 5px;
+    font-weight: bold;
+}
+
+.col2{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline;
+}
+
+.col3{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: inline;
+    padding-left: 300px;
+}
+
+
+.mid{
+    color: #fff;
+    font-size: 3rem;
+    padding: 30px 70px 10px 80px;
+}
